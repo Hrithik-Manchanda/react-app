@@ -5,8 +5,8 @@ import './TicTacToe.css';
 class Game extends React.Component {
     render() {
         return (
-            <div className={'d-flex'}>
-                <div className={"center"}>
+            <div className={'center'}>
+                <div className={"d-flex"}>
                     <div className="game-info">
                         <div>Welcome To game</div>
                     </div>

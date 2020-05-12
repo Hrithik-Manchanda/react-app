@@ -1,34 +1,46 @@
-.d-flex {
+.center {
     display: flex!important;
     height: 100vh;
 }
 
-.center {
+.d-flex {
     margin: 0 auto;
     align-self: center;
+
 }
 
 .game {
-    color: darkred;
+    color: cornflowerblue;
     font-size: x-large;
 }
 
 .game-info {
-    color: darkred;
-    font-size: x-large;
+    color: cornflowerblue;
+    font-size: xx-large;
 }
 
 .game-board {
-    width: 100px;
-    background-color: beige;
+    text-align: center;
+    display: flex!important;
 }
 
 .board-info {
-    width: 400px;
+    margin: 0 auto;
+    align-self: center;
+}
+
+.board-row {
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .squareDiv {
-    height: 10px;
-    width: 10px;
-    align-self: auto;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    size: auto;
+    background-color: blanchedalmond;
+    margin: 2px;
 }

@@ -5,7 +5,7 @@ import './TicTacToe.css';
 
 export default class Board extends React.Component {
     static player = 'X';
-    static myChars = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
+    static myChars = [null, null, null, null, null, null, null, null, null];
 
     renderSquare(ch) {
         return <Square index={ch}/>;
